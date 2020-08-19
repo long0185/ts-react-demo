@@ -1,0 +1,16 @@
+.headerleft{
+    width: 300px;
+}
+.headerstyle{
+    display: flex;
+}
+.headerleft h1{
+    display: inline-block;
+    margin: 0 10px;
+    color: #ccc;
+}
+.headerright{
+    position: absolute;
+    right: 50px;
+    color: #fff;
+}

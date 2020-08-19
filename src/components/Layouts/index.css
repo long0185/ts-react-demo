@@ -1,0 +1,45 @@
+.container{
+    position: fixed;
+    background: lightblue;
+    width: 100%;
+    height: 100%;
+}
+.container .header{
+      position: absolute;
+      width: 100%;
+      height: 80px;
+      line-height: 80px;
+      background: rgb(97, 89, 89);  
+}
+.container .aside{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    background: blueviolet;
+    text-align: center;
+    overflow: auto;
+}
+.container .aside li{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+}
+.container .aside li >a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.container .aside li:hover{
+    background: #fff;
+    color: blueviolet;
+}
+.container .main{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 200px;
+    background:lightblue;
+    bottom: 0;
+
+}
